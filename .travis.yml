@@ -15,3 +15,19 @@ script:
 
   # Verify Ansible is available in the container.
   - docker exec --tty test-container env TERM=xterm ansible --version
+  
+#notifications:
+#  webhooks: https://galaxy.ansible.com/api/v1/notifications/
+notifications:
+  webhooks: 
+    https://galaxy.ansible.com/api/v1/notifications/
+  slack:
+    on_success: always
+    on_failure: always
+    rooms:
+      - buluma:QWpyLHvuvJe5aduZtGs7euUa#travis-ci
+  email:
+    recipients:
+      - me@buluma.co.ke
+    on_success: always # default: change
+    on_failure: always # default: always
