@@ -1,6 +1,6 @@
 # Fedora 33 Ansible Test Image
 
-[![Build Status](https://travis-ci.com/buluma/docker-fedora33-ansible.svg?branch=main)](https://travis-ci.com/buluma/docker-fedora33-ansible) [![Docker Automated build](https://img.shields.io/docker/automated/buluma/docker-fedora33-ansible.svg?maxAge=2592000)](https://hub.docker.com/r/buluma/docker-fedora33-ansible/) [![Build](https://github.com/buluma/docker-fedora33-ansible/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/buluma/docker-fedora33-ansible/actions/workflows/build.yml) [![Docker](https://github.com/buluma/docker-fedora33-ansible/actions/workflows/docker-publish.yml/badge.svg?branch=main)](https://github.com/buluma/docker-fedora33-ansible/actions/workflows/docker-publish.yml)
+[![Build Status](https://travis-ci.com/buluma/docker-fedora33-ansible.svg?branch=main)](https://travis-ci.com/buluma/docker-fedora33-ansible) [![Docker Automated build](https://img.shields.io/docker/automated/buluma/docker-fedora33-ansible.svg?maxAge=2592000)](https://hub.docker.com/r/buluma/docker-fedora33-ansible/) [![Build](https://github.com/buluma/docker-fedora33-ansible/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/buluma/docker-fedora33-ansible/actions/workflows/build.yml) [![Docker](https://github.com/buluma/docker-fedora33-ansible/actions/workflows/docker-publish.yml/badge.svg?branch=main)](https://github.com/buluma/docker-fedora33-ansible/actions/workflows/docker-publish.yml) ![Docker Pulls](https://img.shields.io/docker/pulls/buluma/docker-fedora33-ansible)
 
 Fedora 33 Docker container for Ansible playbook and role testing.
 
@@ -37,4 +37,4 @@ I use Docker to test my Ansible roles and playbooks on multiple OSes using CI to
 
 ## Author
 
-Created in 2020 by [Jeff Geerling](https://www.jeffgeerling.com/), author of [Ansible for DevOps](https://www.ansiblefordevops.com/).
+Created in 2020 by [Michael Buluma](https://www.buluma.co.ke/).
